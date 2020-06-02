@@ -1,0 +1,31 @@
+.item {
+  text-align: center;
+  display: block;
+  float: right;
+}
+.desc {
+  font-size: 3em;
+  font-weight: 400;
+  margin-bottom: -5%;
+  margin-top: 0%;
+  margin-right: 35px;
+}
+.MuiDivider-vertical {
+  width: 3px !important;
+}
+.temp-title {
+  font-size: 3em;
+  font-weight: 600;
+  width: 100%;
+  margin-left: 50%;
+}
+.icon {
+  size: 2em;
+}
+.values {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+.MuiDivider-root {
+  width: 461px;
+}

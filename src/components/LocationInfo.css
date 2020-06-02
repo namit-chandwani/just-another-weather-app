@@ -1,0 +1,27 @@
+img.rounded-new {
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  height: 250px !important;
+  width: 250px !important;
+  margin-top: 2% !important;
+
+  border: 2px solid rgb(102, 255, 0) !important;
+  border-radius: 500px !important;
+  -webkit-border-radius: 500px !important;
+  -moz-border-radius: 500px !important;
+  filter: drop-shadow(2px 2px 2px #3c11ff) !important;
+}
+/* .center-obj {
+  margin-left: auto;
+  margin-right: auto;
+} */
+.item-new {
+  text-align: center;
+  display: block;
+}
+.caption {
+  font-size: 2em;
+  font-weight: 300;
+  margin-top: 1%;
+  margin-bottom: 0%;
+}

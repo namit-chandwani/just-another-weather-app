@@ -1,0 +1,223 @@
+.accordion {
+  box-sizing: border-box;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  width: 50%;
+}
+
+.accordion-select {
+  cursor: pointer;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.accordion-title {
+  position: relative;
+}
+
+.accordion-title:not(:nth-last-child(2))::after {
+  border: 1px solid transparent;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.accordion-title span {
+  bottom: 0px;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.accordion-content {
+  box-sizing: border-box;
+  overflow: auto;
+  position: relative;
+  transition: margin 0.3s ease 0.1s;
+}
+
+.accordion-select:checked + .accordion-title + .accordion-content {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+/* Generated styles starts here */
+
+.accordion {
+  border-color: #4831d4;
+  border-radius: 19px;
+  border-style: solid;
+  border-width: 2px;
+  flex-direction: row;
+  height: 244px;
+}
+
+.accordion-title,
+.accordion-select {
+  background-color: #bdff43;
+  color: #575757;
+  width: 66px;
+  height: 100%;
+  font-size: 18px;
+}
+
+.accordion-select {
+  margin-bottom: -65px;
+  margin-right: -66px;
+}
+
+.accordion-title:not(:nth-last-child(2))::after {
+  border-bottom-color: transparent;
+  border-right-color: #03b621;
+}
+
+.accordion-select:hover + .accordion-title,
+.accordion-select:checked + .accordion-title {
+  background-color: #6bff6b;
+}
+
+.accordion-title span {
+  transform: rotate(-90deg);
+  -ms-writing-mode: lr-bt;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  padding-bottom: 33px;
+  padding-top: 33px;
+  line-height: 66px;
+}
+
+.accordion-content {
+  background-color: #e4f9bd;
+  color: #1f1f1f;
+  height: 240px;
+  margin-bottom: -240px;
+  margin-right: calc(-1 * calc(100% - 396px));
+  padding: 16px;
+  width: calc(100% - 396px);
+}
+.center-obj {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+.center-icon {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.title-date {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+/* Generated styles starts here */
+
+.accordion2 {
+  border-color: #ffed11;
+  border-radius: 19px;
+  border-style: solid;
+  border-width: 2px;
+  flex-direction: row;
+  height: 244px;
+}
+
+.accordion-title2,
+.accordion-select2 {
+  background-color: #bd96b7;
+  color: #ffffff;
+  width: 66px;
+  height: 100%;
+  font-size: 18px;
+}
+
+.accordion-title2:not(:nth-last-child(2))::after {
+  border-bottom-color: transparent;
+  border-right-color: #ff02e8;
+}
+
+.accordion-select2:hover + .accordion-title2,
+.accordion-select2:checked + .accordion-title2 {
+  background-color: #aa88a5;
+}
+
+.accordion-content2 {
+  background-color: #5d1c54;
+  color: #ffffff;
+  height: 240px;
+  margin-bottom: -240px;
+  margin-right: calc(-1 * calc(100% - 396px));
+  padding: 16px;
+  width: calc(100% - 396px);
+}
+
+.accordion2 {
+  box-sizing: border-box;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  width: 50%;
+}
+
+.accordion-select2 {
+  cursor: pointer;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.accordion-title2 {
+  position: relative;
+}
+
+.accordion-title2:not(:nth-last-child(2))::after {
+  border: 1px solid transparent;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.accordion-title2 span {
+  bottom: 0px;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.accordion-content2 {
+  box-sizing: border-box;
+  overflow: auto;
+  position: relative;
+  transition: margin 0.3s ease 0.1s;
+}
+
+.accordion-select2:checked + .accordion-title2 + .accordion-content2 {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+/* Generated styles starts here */
+
+.accordion-select2 {
+  margin-bottom: -65px;
+  margin-right: -66px;
+}
+
+.accordion-title2 span {
+  transform: rotate(-90deg);
+  -ms-writing-mode: lr-bt;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  padding-bottom: 33px;
+  padding-top: 33px;
+  line-height: 66px;
+}
